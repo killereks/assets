@@ -29,12 +29,19 @@
 }
 
 .fade-left {
-  opacity: 0 !important;
+  opacity: 0;
   position: relative;
   left: 100px;
 }
+
+.fade-right {
+  opacity: 0;
+  position: relative;
+  right: 100px;
+}
+
 .fade {
-  opacity: 0 !important;
+  opacity: 0;
 }
 
 .sticky {
