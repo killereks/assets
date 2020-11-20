@@ -2,13 +2,20 @@
   list-style-type: none;
   color: #159957;
   font-size: 20px;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
   text-align: center;
 }
 .nav li {
   display: inline;
-  padding: 15px;
+  padding: 20px;
+}
+
+.nav li {
+  border-right: 1px solid #eff0f1;
+}
+.nav li:last-child {
+  border: none;
 }
 
 .nav .selected {
