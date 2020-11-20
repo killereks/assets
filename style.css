@@ -18,3 +18,12 @@
 .nav a {
   color: #159957;
 }
+
+.fade-left {
+  opacity: 0;
+  position: relative;
+  left: 100px;
+}
+.fade {
+  opacity: 0;
+}
