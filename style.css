@@ -5,6 +5,8 @@
   margin: 10px;
   padding: 10px;
   text-align: center;
+  background-color: white;
+  transition: 0.2s all ease-in-out;
 }
 .nav li {
   display: inline;
@@ -33,4 +35,16 @@
 }
 .fade {
   opacity: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  z-index: 10;
+  border-bottom: 1px solid gray;
+}
+.sticky li {
+  border: none;
 }

@@ -44,3 +44,13 @@ function fadeScroll() {
 
   });
 }
+
+var navbarHeight = document.querySelector("#navbar").offsetTop;
+
+$(window).bind("scroll", function(){
+  if ($(window).scrollTop() > navbarHeight){
+    $('#navbar').addClass("sticky");
+  } else {
+    $('#navbar').removeClass("sticky");
+  }
+})
