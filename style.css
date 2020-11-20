@@ -29,12 +29,12 @@
 }
 
 .fade-left {
-  opacity: 0;
+  opacity: 0 !important;
   position: relative;
   left: 100px;
 }
 .fade {
-  opacity: 0;
+  opacity: 0 !important;
 }
 
 .sticky {
